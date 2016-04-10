@@ -1,0 +1,102 @@
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Project name</a>
+    </div>
+
+    <div class="collapse navbar-collapse pull-right" id="bs-example-navbar-collapse-1">
+      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search...">
+        </div>
+      </form>
+      <ul class="nav navbar-nav" bs-active-link>
+        <li class="active"><a href="#/">Dashboard</a></li>
+        <li ><a href="#/settings">Settings</a></li>
+        <li ><a href="#/profile">Profile</a></li>
+        <li ><a href="#/help">Help</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-2 sidebar">
+      <ul class="nav  nav-sidebar">
+        <li class="active"><a href="#">Overview</a></li>
+        <li ><a href="#">Reports</a></li>
+        <li ><a href="#">Analytics</a></li>
+        <li ><a href="#">Export</a></li>
+      </ul>
+      <ul class="nav  nav-sidebar">
+        <li ><a href="#">Nav item</a></li>
+        <li ><a href="#">Nav item again</a></li>
+        <li ><a href="#">One more nav</a></li>
+        <li ><a href="#">Another nav item</a></li>
+        <li ><a href="#">More navigation</a></li>
+      </ul>
+      <ul class="nav  nav-sidebar">
+        <li ><a href="#">Nav item again</a></li>
+        <li ><a href="#">One more nav</a></li>
+        <li ><a href="#">Another nav item</a></li>
+      </ul>
+    </div>
+    <div class="col-md-10 col-md-offset-2 main">
+      <h1 class="page-header">Dashboard</h1>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="thumbnail">
+            <img src="images/girl.jpg" alt="image">
+            <div class="caption">
+              <h4>Label</h4>
+              <p>Something else</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="thumbnail">
+            <img src="images/girl.jpg" alt="image">
+            <div class="caption">
+              <h4>Label</h4>
+              <p>Something else</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="thumbnail">
+            <img src="images/girl.jpg" alt="image">
+            <div class="caption">
+              <h4>Label</h4>
+              <p>Something else</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="thumbnail">
+            <img src="images/girl.jpg" alt="image">
+            <div class="caption">
+              <h4>Label</h4>
+              <p>Something else</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h1 class="page-header">Section title</h1>
+      <table class="table table-striped">
+        <thead><tr><td>#</td><td>Header</td><td>Header</td><td>Header</td><td>Header</td></tr></thead>
+        <tbody>
+        <tr ng-repeat="rowValue in tables">
+          <td ng-repeat="colValue in rowValue">{{colValue}}</td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
